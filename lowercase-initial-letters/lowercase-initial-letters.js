@@ -29,5 +29,29 @@ function generate(filePath, modelFile) {
 generate(__dirname + '/input.txt', __dirname + '/output.txt');
  */
 
-console.log('>>> Start...');
+const name = "SamUel";
+//let letter = name.charAt(0);
+let newName = '';
+
+let beforeLower = false;
+for(i = 0; i < name.length; i++) {
+    if ((verifyUpper(name[i]) && !verifyUpper(name[i+1])) && !beforeLower) {
+        newName += name.charAt(i).toLowerCase();
+        beforeLower = true;
+    } else if ((verifyUpper(name[i]) && !verifyUpper(name[i+1])) && !beforeLower) {
+        newName += name.charAt(i).toLowerCase();
+        beforeLower = true;
+    } {
+        console.log(name[i]);
+        newName += name[i];
+        beforeLower = false;
+    }
+}
+console.log(newName);
+
+function verifyUpper(letter){
+    //console.log(letter);
+    return letter ? (letter == letter.toUpperCase()) : false;
+}
+
 
