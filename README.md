@@ -1,5 +1,5 @@
 # varied-codes  
-Códigos e Scripts variados com diversas soluções em JavaScript  
+Códigos e Scripts variados com diversas soluções em JavaScript.  
   
 ### Executando os códigos do projeto  
 Cada código é executado de forma separada.  
