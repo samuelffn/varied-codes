@@ -8,7 +8,10 @@ Acessa a pasta do projeto e utiliza o comando: **node nome_do_projeto**
 ## interator-variable  
 Esse código é um exemplo de interação de variáveis.  
   
-## first-lowercase-letter  
+## camel-case-letters   
+Possui dois scripts separados:  
+  
+**first-lowercase-letter**  
 Esse script torna minúscula a letra inicial de cada palavra.  
 Ex.:  
 Abcde -> abcde  
@@ -17,8 +20,8 @@ Como usar:
 - Acesse a pasta do projeto e do script  
 - Execute o script **first-lowercase-letter**  
 - O resultado estará em **output.txt**  e com espaçamento em tabs  
-
-## lowercase-initial-letters  
+  
+**camel-case-letters**  
 Esse script torna minúsculas as letras iniciais de cada palavra composta, do tipo camel-case.  
 Ex.:  
 ABCde -> abCde  
