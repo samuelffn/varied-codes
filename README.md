@@ -1,5 +1,6 @@
 # varied-codes  
-Códigos e Scripts variados com diversas soluções em JavaScript  
+Códigos e Scripts variados com diversas soluções utilizando JavaScript.  
+Projeto para pequenos estudos.  
   
 ### Executando os códigos do projeto  
 Cada código é executado de forma separada.  
@@ -29,4 +30,4 @@ Como usar:
 - Em **input.txt** cole uma lista de palavras, uma abaixo da outra  
 - Acesse a pasta do projeto e do script  
 - Execute o script **first-lowercase-letter**  
-- O resultado estará em **output.txt**  e com espaçamento em tabs  
+- O resultado estará em **output.txt**  e com espaçamento em tabs.  
